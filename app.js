@@ -24,7 +24,7 @@ mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
-mongoose.connect("mongodb+srv://wwitd:swiss2512@todoapp.5cbsy.mongodb.net/todolistDB");    //connecting to mongoose
+mongoose.connect("mongodb+srv://username:password@todoapp.5cbsy.mongodb.net/todolistDB");    //connecting to mongoose
 
 momentDate = moment().format('MMM Do YY');             //passing moment.js into ejs with res render below
 
